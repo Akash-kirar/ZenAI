@@ -1,2 +1,2 @@
-# ZenAI
-my first AI model.
+# SigmaGPT
+A MERN based ChatGPT replica implemented from scratch using OpenAI.

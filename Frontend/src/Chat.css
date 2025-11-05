@@ -1,0 +1,44 @@
+.chats {
+    max-width: 700px;
+    /* only show scrollbar when needed and reduce large padding that created
+       an unexpected centered scrollbar-like appearance */
+    overflow-y: auto;
+    padding: 2rem;
+
+    /* hide native scrollbars while preserving scroll behavior */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+.chats::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.userDiv {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+}
+
+
+.gptDiv {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.userMessage {
+    background-color: #323232;
+    padding: 10px 20px;
+    border-radius: 14px;
+    margin-left: 15rem;
+    max-width: 500px;
+    width: fit-content;
+}
+
+.hljs {
+    border-radius: 14px !important;
+}
+
+pre {
+    white-space: pre-wrap;
+}
